@@ -1,5 +1,357 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
     padding: 0;
-    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* nav start */
+nav {
+    width: 1200px;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    margin-left: 150px;
+}
+
+.list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #263238;
+    margin-left: 37px;
+}
+
+.navbarlink {
+    margin-left: 180px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding: 15px 57px;
+}
+
+/* nav end */
+
+/* hero secton start */
+.hero-item {
+    display: flex;
+    align-items: center;
+}
+
+.learn-more {
+    width: 386px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin: 30px 0;
+}
+
+.lamp {
+    display: flex;
+
+}
+
+.image-hero {
+    margin-top: 100px;
+}
+
+.hero_text {
+    width: 500px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #8F95A5;
+}
+
+.link-link {
+    margin-top: 51px;
+    background: #263238;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.link-item {
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+
+/* hero section end */
+
+/* skills section stert */
+
+.text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+    margin: 100px;
+}
+
+.skills-list {
+    display: flex;
+
+}
+
+.right-item {
+    display: flex;
+}
+
+.right-list {
+    height: 531px;
+    width: 434px;
+    border-radius: 10px;
+
+}
+
+.speeking-text {
+    margin: 20px 0;
+}
+
+
+.skills-left {
+
+    width: 415px;
+    height: 940px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.skills-right-item {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-right-list {
+    width: 350px;
+    height: 661px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.skills-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 30px;
+
+}
+
+.skills-rigth-text {
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+
+
+}
+
+.skills-link {
+    background: #263238;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin-top: 10px;
+    display: inline;
+}
+/* 
+.skills-bottom-list {
+    width: 05px;
+
+} */
+
+.skills-right-bottom {
+    display: flex;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 0 20px;
+    margin-top: 20px;
+
+}
+
+.skills-text {
+    width: 332px;
+}
+
+.skills-links {
+    background: #263238;
+    border-radius: 5px;
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.skills-links>a {
+    display: inline;
+    font-weight: 500;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.skills-link>a {
+    display: inline;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+/* skills section end */
+/* about secton start */
+
+.about-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-list {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    margin-top: 200px;
+
+}
+
+.about-text {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-text-list>h1 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #2A3246;
+}
+
+/* about section end */
+
+/* prtciting section start */
+.pricing-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.pracicing-text {
+    margin-top: 40px;
+}
+
+.pricing-list {
+    width: 500px;
+}
+
+/* prtciting section end */
+/* contact section start */
+
+.contact {
+    margin-top: 200px;
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+
+.contacts {
+    margin: 20px 0;
+}
+
+.form {
+    display: flex;
+}
+
+input {
+    margin: 70px 0;
+    padding: 26px 20px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+button {
+    padding: 28px 81px;
+    background: #263238;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* contact section end */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-about {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    color: #8F95A5;
 }
